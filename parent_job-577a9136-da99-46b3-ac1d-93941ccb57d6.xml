@@ -1,0 +1,25 @@
+<joblist>
+  <job>
+    <context>
+      <options preserveOrder='true'>
+        <option name='print' />
+      </options>
+    </context>
+    <defaultTab>summary</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <id>577a9136-da99-46b3-ac1d-93941ccb57d6</id>
+    <loglevel>INFO</loglevel>
+    <name>parent_job</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <jobref name='child_job' nodeStep='true'>
+          <uuid>b274b35b-c209-48f2-805a-6facc7730752</uuid>
+        </jobref>
+      </command>
+    </sequence>
+    <uuid>577a9136-da99-46b3-ac1d-93941ccb57d6</uuid>
+  </job>
+</joblist>

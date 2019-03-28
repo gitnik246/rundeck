@@ -1,0 +1,23 @@
+<joblist>
+  <job>
+    <context>
+      <options preserveOrder='true'>
+        <option name='print' />
+      </options>
+    </context>
+    <defaultTab>summary</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <id>b274b35b-c209-48f2-805a-6facc7730752</id>
+    <loglevel>INFO</loglevel>
+    <name>child_job</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>$RD_OPTION_PRINT</exec>
+      </command>
+    </sequence>
+    <uuid>b274b35b-c209-48f2-805a-6facc7730752</uuid>
+  </job>
+</joblist>
